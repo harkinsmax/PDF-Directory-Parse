@@ -9,6 +9,6 @@ Some dependencies are required. Make sure the following are available in your Py
 - pytesseract
 - pathlib
 
-Additionally, pdf2image relies on the poppler package. See [https://pdf2image.readthedocs.io/en/latest/installation.html](pdf2image installation) for details. The script assumes that the operating system is Windows, and looks for poppler 24.08.0 under the `./poppler-24.08.0/` folder in the same directory as the script file.
+Additionally, pdf2image relies on the poppler package. See [pdf2image installation](https://pdf2image.readthedocs.io/en/latest/installation.html) for details. The script assumes that the operating system is Windows, and looks for poppler 24.08.0 under the `./poppler-24.08.0/` folder in the same directory as the script file.
 
-Finally, install Tesseracct using the [https://tesseract-ocr.github.io/tessdoc/Installation.html](Tesseract installation instructions)
+Finally, install Tesseracct using the [Tesseract installation instructions](https://tesseract-ocr.github.io/tessdoc/Installation.html)
