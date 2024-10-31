@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 from pdf2image import convert_from_path
 import pytesseract
 import sys
@@ -47,7 +49,6 @@ def processSingleFile(pdfPath):
 
 def processFilesRecursive():
     for root, _, files in os.walk(str(Path.cwd())):
-        print("Found files {}".format(files))
         for file in files:
             if file[-4:].lower() == ".pdf":
                 processSingleFile(str(os.path.join(root,file)))
